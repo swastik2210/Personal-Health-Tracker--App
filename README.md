@@ -106,3 +106,5 @@ Open in Expo Go or run on emulator.
 
 https://github.com/user-attachments/assets/cca8c9f2-f1fd-4450-8ade-d50948a4d3da
 
+**Author**
+Swastik Giri
