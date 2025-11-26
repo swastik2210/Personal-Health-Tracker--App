@@ -1,9 +1,9 @@
-Personal Health Tracker App
+**Personal Health Tracker App**
 
 A beautifully designed wellness-tracking mobile application built using React Native + Expo Router.
 Users can effortlessly log and monitor their water intake, step count, and sleep hours — all inside a smooth, animated interface powered by Moti.
 
-Features
+**Features**
 
 ⦁	Onboarding Screen
 
@@ -51,17 +51,7 @@ Shows activities from last 7 days
 
 Grouped by date
 
-Shows:
-
-Activity Type
-
-Value
-
-Notes (if added)
-
-Timestamp
-
-Daily totals summary for each past day
+Shows: Activity Type, Value, Notes (if added), Timestamp, Daily totals summary for each past day
 
 ⦁	UI / Theme
 
@@ -75,7 +65,7 @@ Consistent typography (Poppins recommended)
 
 Gentle shadows for premium effect
 
-Tech Stack
+**Tech Stack**
 
 Technology		Purpose
 
@@ -99,7 +89,7 @@ npx expo start
 Open in Expo Go or run on emulator.
 
 
-Future Enhancements
+**Future Enhancements**
 
 ⦁	Dark mode
 ⦁	
@@ -110,3 +100,9 @@ Future Enhancements
 ⦁	Push notifications
 ⦁	
 ⦁	Wearable device integration
+
+**Demo Video**
+
+
+https://github.com/user-attachments/assets/cca8c9f2-f1fd-4450-8ade-d50948a4d3da
+
