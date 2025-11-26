@@ -78,7 +78,7 @@ React Hooks		State & lifecycle
 
 Installation & Setup
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/swastik2210/Personal-Health-Tracker--App
 
 # Install dependencies
 npm install
