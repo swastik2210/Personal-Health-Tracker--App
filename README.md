@@ -1,50 +1,112 @@
-# Welcome to your Expo app 👋
+Personal Health Tracker App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A beautifully designed wellness-tracking mobile application built using React Native + Expo Router.
+Users can effortlessly log and monitor their water intake, step count, and sleep hours — all inside a smooth, animated interface powered by Moti.
 
-## Get started
+Features
 
-1. Install dependencies
+⦁	Onboarding Screen
 
-   ```bash
-   npm install
-   ```
+Full-screen themed intro design
 
-2. Start the app
+App title overlaid on hero image
 
-   ```bash
-   npx expo start
-   ```
+Gradient theme matching the entire app
 
-In the output, you'll find options to open the app in a
+Smooth entrance animations
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+“Get Started” button with shadows & elevation
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+⦁	Dashboard
 
-## Get a fresh project
+Displays today’s date
 
-When you're ready, run:
+Animated summary cards for:
 
-```bash
-npm run reset-project
-```
+Water Intake
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Steps Walked
 
-## Learn more
+Sleep Hours
 
-To learn more about developing your project with Expo, look at the following resources:
+Quick Actions buttons to instantly log activities
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+“View History” navigation
 
-## Join the community
+Gradient background for premium look
 
-Join our community of developers creating universal apps.
+⦁	Log Activity
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Log water/steps/sleep with numeric validation
+
+Optional notes
+
+Custom animated Save popup
+
+Header styling consistent with app theme
+
+⦁	Activity History
+
+Shows activities from last 7 days
+
+Grouped by date
+
+Shows:
+
+Activity Type
+
+Value
+
+Notes (if added)
+
+Timestamp
+
+Daily totals summary for each past day
+
+⦁	UI / Theme
+
+Core Theme Color: #4A2C82 (Purple)
+
+Secondary Action Color: #6A4BBC
+
+Clean rounded cards & buttons
+
+Consistent typography (Poppins recommended)
+
+Gentle shadows for premium effect
+
+Tech Stack
+
+Technology		Purpose
+
+React Native		Core mobile UI
+Expo			Development environment
+Expo Router		File-based navigation
+Moti			Smooth animations
+AsyncStorage		Persistence for activity logs
+React Hooks		State & lifecycle
+
+Installation & Setup
+# Clone the repository
+git clone <your-repo-url>
+
+# Install dependencies
+npm install
+
+# Start project
+npx expo start
+
+Open in Expo Go or run on emulator.
+
+
+Future Enhancements
+
+⦁	Dark mode
+⦁	
+⦁	Weekly/monthly analytics
+⦁	
+⦁	Goal tracking
+⦁	
+⦁	Push notifications
+⦁	
+⦁	Wearable device integration
